@@ -72,6 +72,8 @@ function startGame() {
                 $('#tetris').blockrain('gameover');
                 return;
             })
+        } else {
+            $('#tetris').blockrain('resume');
         }
     });
 }
@@ -82,7 +84,7 @@ function initializeListeners() {
 }
 
 function onGameOver(score) {
-    if (score === 0) {
+    if (score === 0 || !web3.eth.defaultAccount) {
         return;
     }
     $.get("http://localhost:5000/high_score/" + web3.eth.defaultAccount + "/" + score, ()=> {
