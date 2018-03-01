@@ -1,0 +1,20 @@
+/*.container {
+    background-color: coral;
+}
+
+.bg*/
+
+.black {
+    background-color: black;
+    margin-top: 10%;
+}
+
+.blockrain-game-holder {
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+#highScoreTable {
+    margin-bottom: 25%;
+}
