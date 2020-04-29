@@ -32,7 +32,7 @@
     "css-loader": "^0.28.10",
     "ethjs-contract": "^0.1.9",
     "ethjs-query": "^0.3.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
