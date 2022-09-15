@@ -28,7 +28,7 @@
   "dependencies": {
     "babel-preset-env": "^1.6.1",
     "blockrain": "^0.2.0",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "css-loader": "^0.28.10",
     "ethjs-contract": "^0.1.9",
     "ethjs-query": "^0.3.3",
